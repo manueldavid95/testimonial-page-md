@@ -11,7 +11,7 @@
 
 /* estilos para el body */
 body {
-    line-height: 1.5;
+    line-height: 3.2rem;
     font-family: "Sora", sans-serif;
     background-color: var(--siete);
 }
@@ -64,6 +64,7 @@ h3 {
 }
 
 .testimonials-text p {
+    font-size: 2rem;
     margin-bottom: 2rem;
     text-align: left;
     color: var(--cuatro);
@@ -105,8 +106,8 @@ h3 {
 
 .testimonio-imagenes {
     display: flex;
-    flex-direction: column;
-    gap: .5rem;
+    align-items: center;
+    gap: 1rem;
 }
 
 .testimonio p {
@@ -145,6 +146,7 @@ h3 {
 
     .testimonials {
         flex-direction: row;
+        align-items: initial;
         gap: 9rem;
     }
 
@@ -154,6 +156,7 @@ h3 {
     }
 
     .testimonials-container {
-        gap: 4rem;
+        gap: 0;
+        justify-content: space-between;
     }
 }
